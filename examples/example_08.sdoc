@@ -24,3 +24,11 @@ REFS:
   VALUE: examples/example_source_files/file2.py
 TITLE: Source range reference
 STATEMENT: This requirement references a range in the file.
+
+[REQUIREMENT]
+UID: REQ-004
+REFS:
+- TYPE: File
+  VALUE: examples/example_source_files/jinja_file.jinja.html
+TITLE: File link to a Django/Jinja file
+STATEMENT: The lint shall point to a file.
