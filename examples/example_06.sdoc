@@ -11,6 +11,7 @@ The ``--enable-mathjax`` option must be provided as follows:
     strictdoc export . --enable-mathjax --output-dir Output
 
 MathJax in FREETEXT:
+
 .. raw:: latex html
 
     $$
@@ -18,7 +19,6 @@ MathJax in FREETEXT:
     \mathbf{\underline{i}}_{\text{a}} \times
     \mathbf{\underline{j}}_{\text{a}}
     $$
-
 [/FREETEXT]
 
 [REQUIREMENT]
@@ -34,5 +34,4 @@ MathJax in requirement's STATEMENT:
     \mathbf{\underline{i}}_{\text{a}} \times
     \mathbf{\underline{j}}_{\text{a}}
     $$
-
 <<<

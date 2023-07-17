@@ -1,0 +1,27 @@
+[project]
+title = "StrictDoc Documentation"
+html_assets_strictdoc_dir = "assets"
+
+features = [
+  # Stable features.
+  "TABLE_SCREEN",
+  "TRACEABILITY_SCREEN",
+  "DEEP_TRACEABILITY_SCREEN",
+
+  "MATHJAX",
+
+  # Experimental features are disabled by default.
+  # "REQIF",
+  # "STANDALONE_DOCUMENT_SCREEN",
+  # "REQUIREMENTS_COVERAGE_SCREEN",
+  "REQUIREMENT_TO_SOURCE_TRACEABILITY",
+  # "HTML2PDF",
+]
+
+# include_doc_paths = [
+#   "examples/**",
+# ]
+#
+# include_source_paths = [
+#   "examples/**"
+# ]
