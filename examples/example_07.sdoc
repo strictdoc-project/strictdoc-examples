@@ -27,9 +27,10 @@ ELEMENTS:
     TYPE: String
     REQUIRED: True
 
-[FREETEXT]
+[TEXT]
+STATEMENT: >>>
 This document is an example of a simple SDoc custom grammar.
-[/FREETEXT]
+<<<
 
 [REQUIREMENT]
 UID: ABC-123

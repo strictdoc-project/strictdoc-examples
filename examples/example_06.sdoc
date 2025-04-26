@@ -1,7 +1,8 @@
 [DOCUMENT]
 TITLE: Example 6: How to include MathJax
 
-[FREETEXT]
+[TEXT]
+STATEMENT: >>>
 This document shows how to enable MathJax in SDoc.
 
 The ``--enable-mathjax`` option must be provided as follows:
@@ -19,7 +20,7 @@ MathJax in FREETEXT:
     \mathbf{\underline{i}}_{\text{a}} \times
     \mathbf{\underline{j}}_{\text{a}}
     $$
-[/FREETEXT]
+<<<
 
 [REQUIREMENT]
 UID: EXAMPLE-6-001
