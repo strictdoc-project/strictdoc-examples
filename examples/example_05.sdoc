@@ -1,9 +1,10 @@
 [DOCUMENT]
 TITLE: Example 5: How to include images
 
-[FREETEXT]
+[TEXT]
+STATEMENT: >>>
 This document shows how to include images to an SDoc document.
-[/FREETEXT]
+<<<
 
 [REQUIREMENT]
 UID: EXAMPLE-5-001
