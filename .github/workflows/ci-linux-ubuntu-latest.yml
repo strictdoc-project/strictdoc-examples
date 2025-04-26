@@ -1,0 +1,37 @@
+name: "StrictDoc Examples on Linux"
+
+on:
+  pull_request:
+    branches: [ "**" ]
+
+  # Periodic: Run every Sunday.
+  schedule:
+    - cron: "00 00 * * 0"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: ["3.11"]
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Upgrade pip
+      run: |
+        python -m pip install --upgrade pip
+
+    - name: Install StrictDoc
+      run: |
+        pip install strictdoc
+
+    - name: Run test
+      run: |
+        strictdoc export .
