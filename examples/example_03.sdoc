@@ -1,7 +1,7 @@
 [DOCUMENT]
 TITLE: Example 3: Section with requirements
 
-[SECTION]
+[[SECTION]]
 TITLE: High-level requirements
 
 [REQUIREMENT]
@@ -19,4 +19,4 @@ UID: EX3-REQ-003
 TITLE: Requirement C
 STATEMENT: The system shall do C.
 
-[/SECTION]
+[[/SECTION]]
