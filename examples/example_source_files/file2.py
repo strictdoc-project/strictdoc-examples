@@ -3,7 +3,7 @@ def hello_world():
     print("hello world")
 
 
-# @sdoc[REQ-003]
+# @relation(REQ-003, scope=range_start)
 def hello_world_3():
     print("hello world")
-# @sdoc[/REQ-003]
+# @relation(REQ-003, scope=range_end)
